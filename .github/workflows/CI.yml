@@ -40,10 +40,11 @@ jobs:
         env: 
           QUANTUMBR_WEBSITE_SSH_KEY: ${{ secrets.QUANTUMBR_TOOLS_USER_SSH_KEY }}
         run: |
-          mkdir ../keys
-          cd ../keys
+          mkdir ./keys
+          cd ./keys
           echo "$QUANTUMBR_WEBSITE_SSH_KEY" > quantumbr_website_ssh_key
           chmod 600 quantumbr_website_ssh_key
+          cd ..
           mkdir ~/.ssh
           ssh-keyscan -t rsa quantumbr.org >> ~/.ssh/known_hosts
           
