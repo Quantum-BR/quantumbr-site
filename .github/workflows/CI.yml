@@ -28,34 +28,25 @@ jobs:
         uses: actions/setup-node@v4.0.0
   
       # Runs a set of commands using the runners shell
-      - name: Build clientapp
+      - name: Build site
         run: |
-          cd clientapp
           npm install
           CI=false npm run build
-          echo "Copy build to Play Server"
+          zip -r build.zip build
           ls
-          mv ./build ../capibara-website/public/clientapp
-          
-      - name: Build server
-        run: |
-          cd capibara-website
-          export SOURCE_DATE_EPOCH=`date +%s`
-          echo "Building for $SOURCE_DATE_EPOCH"
-          sbt dist
           
       - if: ${{ github.event_name == 'push' }}
-        name: Publish to capibara.tools
+        name: Publish to quantumbr.org
         env: 
-          CAPIBARA_WEBSITE_SSH_KEY: ${{ secrets.CAPIBARA_TOOLS_USER_SSH_KEY }}
+          QUANTUMBR_WEBSITE_SSH_KEY: ${{ secrets.QUANTUMBR_TOOLS_USER_SSH_KEY }}
         run: |
           mkdir ../keys
           cd ../keys
-          echo "$CAPIBARA_WEBSITE_SSH_KEY" > capibara_website_ssh_key
-          chmod 600 capibara_website_ssh_key
+          echo "$QUANTUMBR_WEBSITE_SSH_KEY" > quantumbr_website_ssh_key
+          chmod 600 quantumbr_website_ssh_key
           mkdir ~/.ssh
-          ssh-keyscan -t rsa capibara.tools >> ~/.ssh/known_hosts
-          cd ../website/capibara-website/target/universal
-          scp -i ../../../../keys/capibara_website_ssh_key capibara-website-1.0-SNAPSHOT.zip capibara@capibara.tools:dist.zip
-          ssh -i ../../../../keys/capibara_website_ssh_key capibara@capibara.tools 'bash < /home/capibara/redeploy_script.sh'
+          ssh-keyscan -t rsa quantumbr.org >> ~/.ssh/known_hosts
+          
+          scp -i ./keys/quantumbr_website_ssh_key build.zip quantumbr@quantumbr.org:dist.zip
+          ssh -i ./keys/quantumbr_website_ssh_key quantumbr@quantumbr.org 'bash < /home/quantumbr/redeploy_script.sh'
           echo "All Done"
