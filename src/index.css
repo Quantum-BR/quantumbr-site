@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body{
+  padding:0;
+  margin: 0;
+  font-family: "IBM Plex Sans";
+}
+
+.navigation{
+  height:5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.navigation > nav {
+  width:80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+}
+
+.navigation > nav > .left-side {
+  height: 80%;
+  margin: auto 0;
+  flex:1;
+  display: flex;
+}
+
+.navigation > nav > .left-side > .logo {
+  height: 100%;
+}
+
+
+.navigation > nav > .left-side > .logo > a{
+ display: block;
+ height: 100%;
+}
+
+.navigation > nav > .left-side > .logo > a > img{
+  height: 100%;
+}
+
+.navigation > nav > .left-side > ul{
+  list-style-type: none;
+  display: flex;
+  margin: auto 0;
+  padding: 0;
+}
+
+.navigation > nav > .left-side > ul > li{
+  padding: 0em 0em;
+  padding-left: 2em;
+  margin: auto 0;
+}
+
+.navigation > nav > .left-side > ul > li > a{
+  text-decoration: none;
+  color:inherit;
+}
+
+.navigation > nav > .right-side {
+  margin: auto 0;
+}
+
+.navigation > nav > .right-side > ul{
+  list-style-type: none;
+  display: flex;
+  margin: auto 0;
+  padding: 0;
+}
+
+.navigation > nav > .right-side > ul > li > a > svg{
+  font-size: 2em;
+  color: black;
+}
+
+.content {
+  flex:1;
+  width:80%;
+  margin: auto;
+}
+
+.officer {
+  width:10em;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;  
+}
+
+.officer > img {
+  padding:1em;
+  width:100%;
+  box-sizing: border-box;
+  border-radius: 5em;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.officer > ul {
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer {
+  max-height:5em;
+  display: flex;
+  margin-top: 2em;
+  border-top:1px solid #ccc;
+}
+
+.footer > p {
+  margin:auto auto;
+  padding: 1em;
+  display: block;
+}
+
+.App {
+  height:100vh;
+  display: flex;
+  flex-flow:column nowrap;
+}
