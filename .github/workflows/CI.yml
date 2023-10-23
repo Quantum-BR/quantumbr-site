@@ -35,8 +35,7 @@ jobs:
           zip -r build.zip dist
           ls
           
-      - if: ${{ github.event_name == 'push' }}
-        name: Publish to quantumbr.org
+      - name: Publish to quantumbr.org
         env: 
           QUANTUMBR_WEBSITE_SSH_KEY: ${{ secrets.QUANTUMBR_USER_SSH_KEY }}
         run: |
