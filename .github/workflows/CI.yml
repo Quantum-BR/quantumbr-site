@@ -38,7 +38,7 @@ jobs:
       - if: ${{ github.event_name == 'push' }}
         name: Publish to quantumbr.org
         env: 
-          QUANTUMBR_WEBSITE_SSH_KEY: ${{ secrets.QUANTUMBR_TOOLS_USER_SSH_KEY }}
+          QUANTUMBR_WEBSITE_SSH_KEY: ${{ secrets.QUANTUMBR_USER_SSH_KEY }}
         run: |
           mkdir ./keys
           cd ./keys
