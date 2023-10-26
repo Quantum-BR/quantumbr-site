@@ -1,3 +1,5 @@
+import vpheadshot from "../assets/jasonp-headshot.png"
+
 export default function About(){
     return(
         <div className="content">
@@ -12,6 +14,14 @@ export default function About(){
                     <li><a href="https://justinwoodring.com">Website</a></li>
                 </ul>
             </div>
+            <div className="officer">
+                <img src={jasonp-headshot}/>
+                <b>Jason P.</b>
+                <ul>
+                    <li>Vice President</li>
+                    {/*<li><a href="#">Website</a></li>*/}
+                </ul>
+            </div>
             <h2>FAQ</h2>
             <h3>Why should I join?</h3>
             <p>If you want to connect with like-minded peers while standing out amongst your competition as a forward-thinking individual, or you're excited to see what's on the bleeding edge of computing technology, then this is the community for you.</p>
@@ -21,6 +31,9 @@ export default function About(){
 
             <h3>Is there a fee?</h3>
             <p>We will never charge fees to simply attend and benefit from the knowledge presented at any of our meetings or workshops however, you may donate and/or optionally purchase various refreshments and such if they are available at our meetings.</p>
+
+            <h3>Who can join?</h3>
+            <p>This club is open anyone and we encourage non-LSU students to join! However, since we are affiliated with LSU we do ask and expect all of our members to adhere to the standards outlined in the LSU codes and guidelines. Because of our university affiliation the officer positions are also restricted to LSU students, however that doesn't mean there aren't many other ways to step up and contribute to the community as a whole.</p>
 
             <h3>Rules and Such</h3>
             <p>We observe LSU's codes and guidelines.</p>
