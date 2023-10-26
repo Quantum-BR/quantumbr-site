@@ -15,7 +15,7 @@ export default function About(){
                 </ul>
             </div>
             <div className="officer">
-                <img src={jasonp-headshot}/>
+                <img src={vpheadshot}/>
                 <b>Jason P.</b>
                 <ul>
                     <li>Vice President</li>
