@@ -1,4 +1,5 @@
 import vpheadshot from "../assets/jasonp-headshot.png"
+import secheadshot from "../assets/charlesb-headshot.jpeg"
 
 export default function About(){
     return(
@@ -20,6 +21,14 @@ export default function About(){
                 <ul>
                     <li>Vice President</li>
                     <li><a href="https://github.com/kritzikal">Github</a></li>
+                </ul>
+            </div>
+            <div className="officer">
+                <img src={secheadshot}/>
+                <b>Charles Beam</b>
+                <ul>
+                    <li>Secretary</li>
+                    <li><a href="https://charlesbeam.com/">Website</a></li>
                 </ul>
             </div>
             <h2>FAQ</h2>
