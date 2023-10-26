@@ -19,7 +19,7 @@ export default function About(){
                 <b>Jason P.</b>
                 <ul>
                     <li>Vice President</li>
-                    {/*<li><a href="#">Website</a></li>*/}
+                    <li><a href="https://github.com/kritzikal">Github</a></li>
                 </ul>
             </div>
             <h2>FAQ</h2>
