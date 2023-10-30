@@ -1,5 +1,5 @@
 import vpheadshot from "../assets/jasonp-headshot.png"
-import secheadshot from "../assets/charlesb-headshot.jpeg"
+import tresheadshot from "../assets/charlesb-headshot.jpeg"
 
 export default function About(){
     return(
@@ -24,10 +24,10 @@ export default function About(){
                 </ul>
             </div>
             <div className="officer">
-                <img src={secheadshot}/>
+                <img src={tresheadshot}/>
                 <b>Charles Beam</b>
                 <ul>
-                    <li>Secretary</li>
+                    <li>Treasurer</li>
                     <li><a href="https://charlesbeam.com/">Website</a></li>
                 </ul>
             </div>
