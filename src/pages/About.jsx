@@ -8,7 +8,7 @@ export default function About(){
             <p>quantumBR is a quantum computing user group located in Baton Rouge with a mission to lowering the barrier of entry into quantum computing for everyone.</p>
             <h2>Officers</h2>
             <div className="officer">
-                <img src="https://justinwoodring.com/assets/hero-main.jpeg"/>
+                <img src="https://justinwoodring.com/assets/alt-profile-comp.jpg"/>
                 <b>Justin Woodring</b>
                 <ul>
                     <li>Founder, President</li>
