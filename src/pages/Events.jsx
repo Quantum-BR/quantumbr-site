@@ -5,7 +5,7 @@ export default function Events(){
         <div className="content">
             <h1>Events</h1>
             <h2>Opening Night</h2>
-            <h3></h3>When: Wed Aug 28th, 2023 from 5:30pm to 7:30</h3>
+            <h3>When: Wed Aug 28th, 2023 from 5:30pm to 7:30</h3>
             <h3>Where: Patrick F. Taylor Hall @ LSU, Room 1263</h3>
             <img style="margin:auto" src={openingnight}/>
             <p>
