@@ -2,7 +2,7 @@ export default function Footer(){
     return (
         <div className="footer">
             <p>
-                quantumbr.org © 2023. All Rights Reserved.
+                quantumbr.org © 2024.
             </p>
         </div>
     )

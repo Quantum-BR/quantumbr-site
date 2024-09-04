@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Events from './pages/Events'
 import Footer from './components/Footer'
+import FallFest from './pages/FallFest'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
         <Route path="/events" element={<Events/>}/>
+        <Route path="/ff24" element={<FallFest/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>
