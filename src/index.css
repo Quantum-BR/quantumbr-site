@@ -163,6 +163,10 @@ body{
   color:white;
 }
 
+.dark-row li h3 {
+  margin-bottom:0px;
+}
+
 .officer {
   width:10em;
   text-align: center;
