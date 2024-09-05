@@ -41,7 +41,7 @@ export default function FallFest(){
             <li>
             <h3>Wednesday - October 2nd - Get Ready For Fall Fest!!</h3>
             (Meetup) (5:30pm-7:30pm CDT) <br/>
-            Location TBA
+            Location Patrick F Taylor Hall @ LSU, Room 1200
             </li> 
             <br/>
             <li>
@@ -53,7 +53,7 @@ export default function FallFest(){
             <li>
             <h3>Wednesday - October 9th– Quantum Speaker / Workshopping</h3>
             (Meetup) (5:30pm-7:30pm CDT) <br/>
-            Location TBA 
+            Location Tureaud Hall @ LSU, Room 0103
             </li>
             <br/>
             <li>
@@ -70,7 +70,7 @@ export default function FallFest(){
             <h3>Wednesday - October 16th – QuantumBR Qiskit Fall Fest Closing Ceremony</h3>
             (Hybrid) (5:30pm-7:30pm CDT) <br/>
             <a href="https://discord.gg/rET2xdWm?event=1281080307549999115">Discord Virtual Event Link</a><br/>
-            Location TBA
+            Location Patrick F Taylor Hall @ LSU, Room 1200
             </li>
             </ul>
         </div>
