@@ -67,7 +67,7 @@ export default function FallFest(){
             </li>
             <br/>
             <li>
-            Wednesday - October 16th – QuantumBR Qiskit Fall Fest Closing Ceremony <br/>
+            <h3>Wednesday - October 16th – QuantumBR Qiskit Fall Fest Closing Ceremony</h3><br/>
             (Hybrid) (5:30pm-7:30pm CDT) <br/>
             <a href="https://discord.gg/rET2xdWm?event=1281080307549999115">Discord Virtual Event Link</a><br/>
             Location TBA
