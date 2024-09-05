@@ -39,12 +39,6 @@ export default function FallFest(){
             <h1>Quantum Week Starts October 7th!</h1>
             <ul>
             <li>
-            <h3>Wednesday - October 2nd - Get Ready For Fall Fest!!</h3>
-            (Meetup) (5:30pm-7:30pm CDT) <br/>
-            Location Patrick F Taylor Hall @ LSU, Room 1200
-            </li> 
-            <br/>
-            <li>
             <h3>Monday - October 7th – Quantum Week Kickoff</h3>
             (Virtual) (Notebook Drop) (Hackathon Announcement) (10:00am CDT)<br/>
             <a href="https://discord.gg/Nxr2NQkyWp?event=1281080307549999115">Discord Virtual Event Link</a>
