@@ -48,22 +48,6 @@ body{
   box-sizing: border-box;
 }
 
-@media screen and (max-width:700px) {
-  .navigation > nav > .left-side > .logo > a > img{
-    height: 100%;
-    padding: .5em 0;
-    box-sizing: border-box;
-  }
-  .navigation > nav > .left-side {
-    height: 80%;
-    margin: auto 0;
-    flex:1;
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-  }
-}
-
 .navigation > nav > .left-side > ul{
   list-style-type: none;
   display: flex;
@@ -245,4 +229,31 @@ body{
 
 .ffbg img {
   height:4em;
+}
+
+@media screen and (max-width:700px) {
+  .navigation > nav > .left-side > .logo > a > img{
+    height: 100%;
+    padding: .5em 0;
+    box-sizing: border-box;
+  }
+  .navigation > nav > .left-side {
+    height: 80%;
+    margin: auto 0;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .jumbo {
+    display: flex;
+    flex-flow: row wrap;
+    min-height:15em;
+    width:100%;
+    background: linear-gradient(to right, rgb(133, 42, 185), rgb(49, 52, 159));
+    color:white;
+    font-size: 1.5em;
+    font-family: "Noto Serif Display";
+    font-weight: 300;
+  }
 }
