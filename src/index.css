@@ -252,4 +252,8 @@ body{
   .dark-row {
     font-size: .8em;
   }
+
+  .dark-row > ul{
+    margin:0;
+  }
 }
