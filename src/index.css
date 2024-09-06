@@ -285,3 +285,26 @@ body{
   height:100vh;
   pointer-events: none;
 }
+
+.light-row {
+  padding:2em;
+  width:100%;
+  box-sizing: border-box;
+}
+
+.light-row > p {
+  padding:2em;
+  width:50%;
+  box-sizing: border-box;
+
+}
+
+.sidebyside > .text > p{
+  font-size: 1rem;
+  color:#333;
+}
+
+.sidebyside > .text > ul{
+  font-size: 1rem;
+  color:#333;
+}

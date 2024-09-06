@@ -31,21 +31,25 @@ export default function FallFest(){
                 <h2>Hybrid QuantumBR X IBM Qiskit Fall Fest Extension Event</h2>
                 <p>QuantumBR has partnered with IBM to bring you an exciting series of hybrid events as an Extension of Qiskit Fall Fest '24.</p>
                 
-                <h2>Events</h2>
+                <h3>About</h3>
+                <p>Join us for an exciting series of hybrid events where you can immerse yourself in the world of quantum computing. Learn from industry experts, participate in hands-on workshops, and network with like-minded individuals passionate about quantum technology.
+            Whether you're a beginner or an experienced quantum enthusiast, this event offers something for everyone. Don't miss this opportunity to explore the cutting-edge advancements in quantum computing at the QuantumBR x IBM Extension Qiskit Fall Fest. Mark your calendars and get ready for a quantum experience like no other!</p>
+
+                <h3>Events</h3>
                 <ul>
                     <li>Quantum Week Kickoff</li>
                     <li>Engaging Speakers</li>
                     <li>Hackathon Winner Announcement</li>
                 </ul>
 
-                <h2>Activities</h2>
+                <h3>Activities</h3>
                 <ul>
                     <li>QuantumBR Challenges & Certificate</li>
                     <li>Workshops</li>
                     <li>Hackathon</li>
                 </ul>
 
-                <h2>Register in our discord!</h2>
+                <h3>Register in our discord!</h3>
                 <a href="https://discord.gg/BAu3uksFEQ">Join the QuantumBR Discord!</a>
             </div>
             <div className='img'>
