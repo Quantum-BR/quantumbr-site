@@ -249,4 +249,7 @@ body{
     color:white;
     font-size: 1.5em;
   }
+  .dark-row {
+    font-size: .8em;
+  }
 }
