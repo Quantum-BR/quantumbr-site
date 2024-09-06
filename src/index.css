@@ -159,6 +159,7 @@ body{
   padding:2em;
   margin-bottom: -2rem;
   width: 100%;
+  box-sizing: border-box;
 }
 
 .dark-row a{
@@ -231,6 +232,16 @@ body{
   height:4em;
 }
 
+.dark-row > ul{
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.dark-row > ul > li{
+  box-sizing: border-box;
+  width: 100%;
+}
+
 @media screen and (max-width:700px) {
   .navigation > nav > .left-side > .logo > a > img{
     height: 100%;
@@ -254,6 +265,12 @@ body{
   }
 
   .dark-row > ul{
-    margin:0;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .dark-row > ul > li{
+    box-sizing: border-box;
+    width: 100%;
   }
 }
