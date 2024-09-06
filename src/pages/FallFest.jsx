@@ -1,9 +1,26 @@
 import qbr from '../assets/qbr-round.png'
 import qffbadge from '../assets/qff-badge.png'
 import blogimg from '../assets/Blog-Image_02.png'
+import { Snowfall } from 'react-snowfall'
+import leafimg from '../assets/leaf.png'
+
+const leaf = document.createElement('img')
+leaf.src = leafimg
 
 export default function FallFest(){
     return (<div className="content-fw">
+        <div className='leaves'>
+        <Snowfall
+        // Changes the snowflake color
+        color="red"
+        // Applied to the canvas element
+        // Controls the number of snowflakes that are created (default 150)
+        radius={[10,15]}
+        snowflakeCount={20}
+
+        images={[leaf]}
+        />
+        </div>
         <div className="jumbo ffbg">
             <h1>QuantumBR<hr/> Fall Fest '24</h1>
             <p><img src={qbr}/>&ensp;<img src={qffbadge}/></p> 
