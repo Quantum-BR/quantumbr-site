@@ -14,6 +14,7 @@ export default function Events(){
             <h3>Where: Patrick F. Taylor Hall @ LSU, Room 1200</h3>
             <p>Interested in Quantum Week? Have questions? Be sure to stop by and get ready for Quantum Week's challenges!</p>
             <hr/>
+            <h1>Past Events</h1>
             <h2>Biweekly Meeting</h2>
             <h3>When: Wed Sep 18th, 2024 from 5:30pm to 7:30</h3>
             <h3>Where: Patrick F. Taylor Hall @ LSU, Room 1263</h3>
@@ -22,7 +23,6 @@ export default function Events(){
                 The biweekly QuantumBR meeting featuring speakers, workshops,
                 icebreakers, and other quantum-focused activities.
             </p>
-            <h1>Past Events</h1>
             <h2>Opening Night</h2>
             <h3>When: Wed Aug 28th, 2024 from 5:30pm to 7:30</h3>
             <h3>Where: Patrick F. Taylor Hall @ LSU, Room 1263</h3>
