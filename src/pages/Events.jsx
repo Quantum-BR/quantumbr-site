@@ -1,5 +1,3 @@
-import openingnight from "../assets/bitmap.png"
-import biweeklymeeting from "../assets/bitmap2.png"
 import { Link } from "react-router-dom"
 
 export default function Events(){
@@ -18,7 +16,6 @@ export default function Events(){
             <h2>Biweekly Meeting</h2>
             <h3>When: Wed Sep 18th, 2024 from 5:30pm to 7:30</h3>
             <h3>Where: Patrick F. Taylor Hall @ LSU, Room 1263</h3>
-            <img src={biweeklymeeting} width={600}/>
             <p>
                 The biweekly QuantumBR meeting featuring speakers, workshops,
                 icebreakers, and other quantum-focused activities.
