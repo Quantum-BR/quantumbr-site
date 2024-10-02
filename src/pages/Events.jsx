@@ -4,7 +4,7 @@ export default function Events(){
     return(
         <div className="content">
             <h1>Events</h1>
-            <h2>QuantumBR x IBM Extension Qiskit Fall Fest '24</h2>
+            <h2>QuantumBR x IBM Sponsored Qiskit Fall Fest '24</h2>
             <p>Details: <Link to="/ff24">Fall Fest Event Schedule</Link></p>
             <hr/>
             <h2>Get Ready For Fall Fest!!</h2>
