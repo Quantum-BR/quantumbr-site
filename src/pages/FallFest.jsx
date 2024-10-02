@@ -28,8 +28,8 @@ export default function FallFest(){
         <div className='runner'/>
         <div className='sidebyside'>
             <div className='text'>
-                <h2>Hybrid QuantumBR X IBM Qiskit Fall Fest Extension Event</h2>
-                <p>QuantumBR has partnered with IBM to bring you an exciting series of hybrid events as an Extension of Qiskit Fall Fest '24.</p>
+                <h2>Hybrid QuantumBR X IBM Qiskit Fall Fest Sponsored Event</h2>
+                <p>QuantumBR has partnered with IBM to bring you an exciting series of hybrid events as a Sponsored host of Qiskit Fall Fest '24.</p>
                 
                 <h3>About</h3>
                 <p>Join us for an exciting series of hybrid events where you can immerse yourself in the world of quantum computing. Learn from industry experts, participate in hands-on workshops, and network with like-minded individuals passionate about quantum technology.
