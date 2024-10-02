@@ -33,7 +33,7 @@ export default function FallFest(){
                 
                 <h3>About</h3>
                 <p>Join us for an exciting series of hybrid events where you can immerse yourself in the world of quantum computing. Learn from industry experts, participate in hands-on workshops, and network with like-minded individuals passionate about quantum technology.
-            Whether you're a beginner or an experienced quantum enthusiast, this event offers something for everyone. Don't miss this opportunity to explore the cutting-edge advancements in quantum computing at the QuantumBR x IBM Extension Qiskit Fall Fest. Mark your calendars and get ready for a quantum experience like no other!</p>
+            Whether you're a beginner or an experienced quantum enthusiast, this event offers something for everyone. Don't miss this opportunity to explore the cutting-edge advancements in quantum computing at the QuantumBR x IBM Sponsored Qiskit Fall Fest. Mark your calendars and get ready for a quantum experience like no other!</p>
 
                 <h3>Events</h3>
                 <ul>
