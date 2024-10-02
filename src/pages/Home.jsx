@@ -7,7 +7,7 @@ export default function Home(){
         <div className="content-fw">
             <div className="jumbo">
                 <h1>Things Are Getting <strong><em>Quantum!</em></strong></h1>
-                <p>EXTENSION IBM <br/> Qiskit Fall Fest '24<br/>Starts Oct 7th</p>
+                <p>SPONSORED IBM <br/> Qiskit Fall Fest '24<br/>Starts Oct 7th</p>
                 <p><Link to="/ff24"> Event Details </Link></p>
             </div>
             <div className="sidebyside">
