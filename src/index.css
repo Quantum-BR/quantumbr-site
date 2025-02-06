@@ -308,3 +308,38 @@ body{
   font-size: 1rem;
   color:#333;
 }
+
+.event {
+  padding: 1rem;
+  border-radius: .25rem;
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-bottom: 1rem;
+  width:100%;
+}
+
+.event > .title {
+  font-size: 1.25rem;
+}
+
+.event > .details {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.event > .details > .when {
+  font-size: .9rem;
+  flex:1;
+  flex-basis: 50%;
+}
+
+.event > .details > .where {
+  font-size: .9rem;
+  flex:1;
+  flex-basis: 50%;
+}
+
+.event > .details > .desc {
+  display: block;
+  flex-grow: 2;
+}

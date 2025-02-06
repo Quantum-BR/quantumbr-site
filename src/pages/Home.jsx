@@ -6,9 +6,9 @@ export default function Home(){
     return(
         <div className="content-fw">
             <div className="jumbo">
-                <h1>Things Are Getting <strong><em>Quantum!</em></strong></h1>
-                <p>SPONSORED IBM <br/> Qiskit Fall Fest '24<br/>Starts Oct 7th</p>
-                <p><Link to="/ff24"> Event Details </Link></p>
+                <h1>QuantumBR First General Meeting</h1>
+                <p>@ LSU <br/>Patrick F. Taylor Room 1221<br/>Feb 19th</p>
+                <p>Everyone is welcome!</p>
             </div>
             <div className="sidebyside">
                 <div className="text">
